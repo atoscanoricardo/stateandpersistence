@@ -1,5 +1,3 @@
-# Workflow para construir y desplegar un sitio Nuxt a GitHub Pages
-
 name: Deploy Nuxt site to Pages
 
 on:
@@ -80,3 +78,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
