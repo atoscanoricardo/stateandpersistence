@@ -1,5 +1,5 @@
 export default defineEventHandler(async (event) => {
-    const products = [
+    /*const products = [
         {
             id: 1,
             title: 'Producto 1',
@@ -21,11 +21,11 @@ export default defineEventHandler(async (event) => {
 
     ]
 
-    return products
+    return products*/
 
 
-    // const repo = await $fetch('https://fakestoreapi.com/products');
-    // return repo
+     const repo = await $fetch('https://fakestoreapi.com/products');
+     return repo
   })
 
   
